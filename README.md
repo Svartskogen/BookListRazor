@@ -14,3 +14,7 @@ Simple CRUD ASP.NET Core App using Razor Pages.
 - Read:
 - Update:
 - Delete:
+
+## Usage:
+You need Visual Studio 2019, the .Net Core 3.1 runtime and a MS SQL Server 2019 instance running in your local machine.
+//database routing, migrations.
