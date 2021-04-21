@@ -16,5 +16,10 @@ Simple CRUD ASP.NET Core App using Razor Pages.
 - Delete:
 
 ## Building and usage:
-You need Visual Studio 2019, the .Net Core 3.1 SKD and runtime and a MS SQL Server 2019 instance running in your local machine.
-//database routing, migrations.
+You need Visual Studio 2019, .Net Core 3.1 and a MS SQL Server 2019 instance running in your local machine.
+
+For database setup you need to:
+- Set the DefaultConnection Server in appsettings.json to your local instance (see: Server=DESKTOP-F19K3V3, change DESKTOP... with your local instance name)
+- Create the database and book table using the Package Manager Console in Visual Studio:
+  - ```PM> add-migration DatabaseInit```
+  - ```PM> update-database```
